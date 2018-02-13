@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/sssssssssssssss"
+    android:layout_height="match_parent"
+    tools:context="com.example.kantu.piaknows.lessonchords">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="What is Chord?"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:textColor="#FFFFFF"
+        android:layout_width="280dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="      A chord or grouping of notes played simultaneously can create harmony, which is when two or more notes complement one another."/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:id="@+id/neks"
+            android:text="Next"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@android:drawable/screen_background_light_transparent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

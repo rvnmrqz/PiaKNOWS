@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sssssssssssssss"
+    tools:context="com.example.kantu.piaknows.lesson">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/lessons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/parts"
+            android:background="@drawable/parts"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="240dp"
+            android:layout_height="70dp"
+            android:textSize="40dp"/>
+
+
+        <Button
+            android:id="@+id/chords"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/chords"
+            android:layout_marginTop="20dp"
+            android:layout_width="240dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:textSize="40dp"/>
+
+        <Button
+            android:id="@+id/famchords"
+            android:background="@drawable/famchords"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_width="240dp"
+            android:layout_height="70dp"
+            android:textSize="40dp"/>
+
+        <Button
+            android:id="@+id/scale"
+            android:layout_width="240dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/scale"
+            android:textSize="40dp" />
+
+        <Button
+            android:id="@+id/song"
+            android:background="@drawable/songs"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_width="240dp"
+            android:layout_height="70dp"/>
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

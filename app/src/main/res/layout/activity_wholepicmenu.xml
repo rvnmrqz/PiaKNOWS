@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.example.kantu.piaknows.wholepicmenu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/majorscale"
+            android:layout_gravity="center"
+            android:background="@drawable/majorcb"
+            android:layout_width="280dp"
+            android:layout_height="150dp"/>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/minorscale"
+            android:background="@drawable/minorchords"
+            android:layout_width="280dp"
+            android:layout_height="150dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

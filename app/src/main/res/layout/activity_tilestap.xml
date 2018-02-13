@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kantu.piaknows.tilestap">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/t_11"
+                android:layout_width="90dp"
+                android:layout_height="100dp" />
+
+            <ImageButton
+                android:id="@+id/t_12"
+                android:layout_marginLeft="10dp"
+                android:layout_width="90dp"
+                android:layout_height="100dp" />
+
+
+            <ImageButton
+                android:id="@+id/t_13"
+                android:layout_marginLeft="10dp"
+                android:layout_width="90dp"
+                android:layout_height="100dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/t_21"
+                android:layout_width="90dp"
+                android:layout_height="100dp" />
+
+            <ImageButton
+                android:id="@+id/t_22"
+                android:layout_marginLeft="10dp"
+                android:layout_width="90dp"
+                android:layout_height="100dp" />
+
+
+            <ImageButton
+                android:id="@+id/t_23"
+                android:layout_marginLeft="10dp"
+                android:layout_width="90dp"
+                android:layout_height="100dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/t_31"
+                android:layout_width="90dp"
+                android:layout_height="100dp" />
+
+            <ImageButton
+                android:id="@+id/t_32"
+                android:layout_marginLeft="10dp"
+                android:layout_width="90dp"
+                android:layout_height="100dp" />
+
+
+            <ImageButton
+                android:id="@+id/t_33"
+                android:layout_marginLeft="10dp"
+                android:layout_width="90dp"
+                android:layout_height="100dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/t_41"
+                android:layout_width="90dp"
+                android:layout_height="100dp" />
+
+            <ImageButton
+                android:id="@+id/t_42"
+                android:layout_marginLeft="10dp"
+                android:layout_width="90dp"
+                android:layout_height="100dp" />
+
+
+            <ImageButton
+                android:id="@+id/t_43"
+                android:layout_marginLeft="10dp"
+                android:layout_width="90dp"
+                android:layout_height="100dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/t_51"
+                android:layout_width="90dp"
+                android:layout_height="100dp" />
+
+            <ImageButton
+                android:id="@+id/t_52"
+                android:layout_marginLeft="10dp"
+                android:layout_width="90dp"
+                android:layout_height="100dp" />
+
+
+            <ImageButton
+                android:id="@+id/t_53"
+                android:layout_marginLeft="10dp"
+                android:layout_width="90dp"
+                android:layout_height="100dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

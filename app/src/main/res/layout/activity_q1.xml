@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/sssssssssssssss"
+    android:layout_height="match_parent"
+    tools:context="com.example.kantu.piaknows.q1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:textColor="#FFFFFF"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="      What is grouping of notes played simultaneously can create harmony, which is when two or more notes complement one another?"/>
+
+    <RadioGroup
+        android:layout_marginTop="5dp"
+        android:id="@id/rdogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@id/rdo1"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="#FFFFFF"
+            android:background="@android:drawable/screen_background_light_transparent"
+            android:text="Chords"/>
+
+        <RadioButton
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:id="@+id/rdo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="#FFFFFF"
+            android:background="@android:drawable/screen_background_light_transparent"
+            android:text="Scale"/>
+
+        <RadioButton
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:id="@+id/rdo3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="#FFFFFF"
+            android:background="@android:drawable/screen_background_light_transparent"
+            android:text="Note"/>
+
+        <RadioButton
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:id="@id/rdo4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="#FFFFFF"
+            android:background="@android:drawable/screen_background_light_transparent"
+            android:text="Sharp and Flats"/>
+    </RadioGroup>
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="next"/>
+
+</LinearLayout>
+</android.support.constraint.ConstraintLayout>

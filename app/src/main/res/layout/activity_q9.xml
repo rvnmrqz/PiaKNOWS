@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/sssssssssssssss"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kantu.piaknows.q9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView  android:layout_marginTop="10dp"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="      What is the next Note of Ab?"/>
+        <RadioGroup
+            android:id="@id/rdogroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:id="@id/rdo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textColor="#FFFFFF"
+                android:background="@android:drawable/screen_background_light_transparent"
+                android:text="A Note"/>
+            <RadioButton
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:id="@+id/rdo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#FFFFFF"
+                android:background="@android:drawable/screen_background_light_transparent"
+                android:text="B Note"/>
+            <RadioButton
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:id="@+id/rdo3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#FFFFFF"
+                android:background="@android:drawable/screen_background_light_transparent"
+                android:text="C Note"/>
+            <RadioButton
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:id="@id/rdo4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#FFFFFF"
+                android:background="@android:drawable/screen_background_light_transparent"
+                android:text="D Note"/>
+        </RadioGroup>
+        <Button
+            android:id="@id/btn1"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="next"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kantu.piaknows">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".chords" />
+        <activity android:name=".chordshome" />
+        <activity android:name=".easy" />
+        <activity android:name=".fama" />
+        <activity android:name=".famb" />
+        <activity android:name=".famc" />
+        <activity android:name=".famd" />
+        <activity android:name=".fame" />
+        <activity android:name=".famf" />
+        <activity android:name=".famg" />
+        <activity android:name=".family" />
+        <activity android:name=".hard" />
+        <activity android:name=".lesson" />
+        <activity android:name=".login" />
+        <activity android:name=".majorscale" />
+        <activity android:name=".medium" />
+        <activity android:name=".minorscale" />
+        <activity android:name=".pianotiles" />
+        <activity android:name=".pianotiless" />
+        <activity android:name=".tilestap" />
+        <activity android:name=".tilesbar" />
+        <activity android:name=".qp" />
+        <activity android:name=".scale" />
+        <activity android:name=".sharppicmajor" />
+        <activity android:name=".sharppicmenu" />
+        <activity android:name=".sharppicmin" />
+        <activity android:name=".sharpvidmenu" />
+        <activity android:name=".sharpvidmajor" />
+        <activity android:name=".sharpvidmin" />
+        <activity android:name=".song" />
+        <activity android:name=".user" />
+        <activity android:name=".whole" />
+        <activity android:name=".wholefront" />
+        <activity android:name=".wholemaj" />
+        <activity android:name=".wholemin" />
+        <activity android:name=".wholepicmaj" />
+        <activity android:name=".wholepicmenu" />
+        <activity android:name=".wholepicmin" />
+        <activity android:name=".wholevidmajor" />
+        <activity android:name=".wholevidmenu" />
+        <activity android:name=".wholevidmin" />
+        <activity android:name=".Register" />
+        <activity android:name=".q" />
+        <activity android:name=".quiz_score" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".easyhalf" />
+        <activity android:name=".easymenu" />
+        <activity android:name=".mediummenu" />
+        <activity android:name=".hardmenu" />
+        <activity android:name=".halfmenu" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".q1" />
+        <activity android:name=".q2" />
+        <activity android:name=".score" />
+        <activity android:name=".MyScore" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".q3" />
+        <activity android:name=".q4" />
+        <activity android:name=".q5" />
+        <activity android:name=".q6" />
+        <activity android:name=".q7" />
+        <activity android:name=".q8" />
+        <activity android:name=".q9" />
+        <activity android:name=".q10" />
+        <activity android:name=".lessonchords" />
+        <activity android:name=".lessonscale"></activity>
+    </application>
+
+</manifest>

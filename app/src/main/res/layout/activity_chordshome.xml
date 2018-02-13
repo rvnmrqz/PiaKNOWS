@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sssssssssssssss"
+    tools:context="com.example.kantu.piaknows.chordshome">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+       <Button
+           android:layout_marginTop="10dp"
+           android:background="@drawable/basicchords"
+           android:layout_width="220dp"
+           android:layout_height="60dp"
+           android:layout_gravity="center"/>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/sharp"
+            android:layout_gravity="center"
+            android:layout_width="280dp"
+            android:layout_height="150dp"
+            android:background="@drawable/sharpsflats"/>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:background="@drawable/whole"
+            android:id="@+id/whole"
+            android:layout_gravity="center"
+            android:layout_width="280dp"
+            android:layout_height="150dp"
+            android:src="@drawable/th"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

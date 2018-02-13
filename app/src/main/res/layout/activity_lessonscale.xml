@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sssssssssssssss"
+    tools:context="com.example.kantu.piaknows.lessonscale">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="What is Scale?"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:textColor="#FFFFFF"
+            android:layout_width="280dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="      “Scale” comes from a Latin word which means ladder. A scale is the tonal basis of music. It is a set of tones from which you can build melodies and harmonies"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:text="Next"
+            android:id="@+id/neks"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@android:drawable/screen_background_light_transparent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

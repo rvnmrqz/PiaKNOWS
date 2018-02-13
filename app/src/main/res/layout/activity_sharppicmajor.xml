@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/sssssssssssssss"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kantu.piaknows.sharppicmajor">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:background="@drawable/mm"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:background="#FFFFFF"
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <Button
+                android:background="@drawable/abbss"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_width="230dp"
+                android:layout_gravity="center"
+                android:layout_height="60dp" />
+
+            <ImageButton
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_width="300dp"
+                android:layout_height="140dp"
+                android:background="@drawable/asharpbbmajor"/>
+
+            <Button
+                android:id="@+id/asharp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:layout_width="230dp"
+                android:layout_height="50dp"
+                android:background="@drawable/cfs"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:background="#FFFFFF"
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+
+            <Button
+                android:background="@drawable/csdbm"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_width="230dp"
+                android:layout_gravity="center"
+                android:layout_height="60dp" />
+
+            <ImageButton
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_width="300dp"
+                android:layout_height="140dp"
+                android:background="@drawable/csharpdbmajor"/>
+
+            <Button
+                android:id="@+id/csharp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:layout_width="230dp"
+                android:layout_height="50dp"
+                android:background="@drawable/cfs"/>
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:background="#FFFFFF"
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+
+            <Button
+                android:background="@drawable/debm"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_width="230dp"
+                android:layout_gravity="center"
+                android:layout_height="60dp" />
+
+            <ImageButton
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_width="300dp"
+                android:layout_height="140dp"
+                android:background="@drawable/dsharpebmajor"/>
+
+            <Button
+                android:id="@+id/dsharp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:layout_width="230dp"
+                android:layout_height="50dp"
+                android:background="@drawable/cfs"/>
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:background="#FFFFFF"
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+
+            <Button
+                android:background="@drawable/fsgbm"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_width="230dp"
+                android:layout_gravity="center"
+                android:layout_height="60dp" />
+
+
+            <ImageButton
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_width="300dp"
+                android:layout_height="140dp"
+                android:background="@drawable/fsharpgbmajor"/>
+
+            <Button
+                android:id="@+id/fsharp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:layout_width="230dp"
+                android:layout_height="50dp"
+                android:background="@drawable/cfs"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:background="#FFFFFF"
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+
+            <Button
+                android:background="@drawable/gsabm"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_width="230dp"
+                android:layout_gravity="center"
+                android:layout_height="60dp" />
+
+            <ImageButton
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_width="300dp"
+                android:layout_height="140dp"
+                android:background="@drawable/gsharpabmajor"/>
+
+            <Button
+                android:id="@+id/gsharp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:layout_width="230dp"
+                android:layout_height="50dp"
+                android:background="@drawable/cfs"/>
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:background="#FFFFFF"
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

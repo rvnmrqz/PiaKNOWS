@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/sssssssssssssss"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kantu.piaknows.q10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:text="      (Blank) comes from a Latin word which means ladder. A scale is the tonal basis of music. It is a set of tones from which you can build melodies and harmonies."/>
+        <RadioGroup
+            android:id="@id/rdogroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:id="@id/rdo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#FFFFFF"
+                android:background="@android:drawable/screen_background_light_transparent"
+                android:text="Scale"/>
+            <RadioButton
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:id="@+id/rdo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#FFFFFF"
+                android:background="@android:drawable/screen_background_light_transparent"
+                android:text="Chord"/>
+            <RadioButton
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:id="@+id/rdo3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#FFFFFF"
+                android:background="@android:drawable/screen_background_light_transparent"
+                android:text="Note"/>
+            <RadioButton
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:id="@id/rdo4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#FFFFFF"
+                android:background="@android:drawable/screen_background_light_transparent"
+                android:text="Flat and Sharps"/>
+        </RadioGroup>
+        <Button
+            android:id="@id/btn1"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="next"/>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

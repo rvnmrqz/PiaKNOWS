@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sssssssssssssss"
+    tools:context="com.example.kantu.piaknows.Register">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:background="@drawable/registration"
+            android:textSize="30dp"/>
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/screen_background_light_transparent"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:hint="First Name"
+            android:id="@+id/name"
+            android:layout_width="300dp"
+            android:layout_height="50dp" />
+
+        <EditText
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/screen_background_light_transparent"
+            android:textColorHint="#FFFFFF"
+            android:hint="Last Name"
+            android:id="@+id/lastname"
+            android:layout_width="300dp"
+            android:layout_height="50dp" />
+
+        <EditText
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/screen_background_light_transparent"
+            android:textColorHint="#FFFFFF"
+            android:hint="Age"
+            android:id="@+id/age"
+            android:inputType="number"
+            android:maxLength="2"
+            android:layout_width="300dp"
+            android:layout_height="50dp" />
+
+        <EditText
+            android:inputType="number"
+            android:maxLength="11"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/screen_background_light_transparent"
+            android:textColorHint="#FFFFFF"
+            android:hint="Contact Number"
+            android:id="@+id/number"
+            android:layout_width="300dp"
+            android:layout_height="50dp" />
+
+        <EditText
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/screen_background_light_transparent"
+            android:textColorHint="#FFFFFF"
+            android:hint="Address"
+            android:id="@+id/address"
+            android:layout_width="300dp"
+            android:layout_height="50dp" />
+
+
+        <EditText
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/screen_background_light_transparent"
+            android:textColorHint="#FFFFFF"
+            android:hint="Username"
+            android:id="@+id/username"
+            android:layout_width="300dp"
+            android:layout_height="50dp" />
+
+
+        <EditText
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/screen_background_light_transparent"
+            android:textColorHint="#FFFFFF"
+            android:id="@+id/password"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_width="300dp"
+            android:layout_height="50dp" />
+
+        <EditText
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/screen_background_light_transparent"
+            android:textColorHint="#FFFFFF"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:id="@+id/confirmpassword"
+            android:layout_width="300dp"
+            android:layout_height="50dp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="130dp"
+                android:layout_height="60dp"
+                android:id="@+id/back"
+                android:background="@drawable/cancel"/>
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="130dp"
+                android:layout_height="60dp"
+                android:background="@drawable/submit"
+                android:id="@+id/register"
+                android:layout_marginLeft="40dp"
+                android:textSize="18dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
