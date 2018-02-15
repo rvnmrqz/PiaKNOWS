@@ -19,16 +19,23 @@ public class Main2Activity extends AppCompatActivity {
         dbHelper = new DBHelper(this);
         sharedPreferences = getSharedPreferences("data",MODE_PRIVATE);
 
-        Cursor cursor = dbHelper.getSqliteData("SELECT "+dbHelper.COL_SCORE+" FROM "+dbHelper.TABLE_USER+ " WHERE "+dbHelper.COL_USERNAME+" = "+sharedPreferences.getString("username"," "));
+        Cursor cursor = dbHelper.getSqliteData("SELECT "+dbHelper.COL_SCORE+" FROM "+dbHelper.TABLE_USER
+                                                    + " WHERE "
+                                                    +dbHelper.COL_USERNAME+" = '"+sharedPreferences.getString("username"," ")+"'");
+
+
         if(cursor!=null){
             cursor.moveToFirst();
-            int myScore = cursor.getInt(0);
-            Toast.makeText(this, ""+myScore, Toast.LENGTH_SHORT).show();
 
+            System.out.println(cursor.getInt(0));
+
+            int myScore = cursor.getInt(0);
+
+            Toast.makeText(this, ""+myScore, Toast.LENGTH_SHORT).show();
 
             //DITO MO LAGAY UNG SINASABE MONG CHANGE NG PIC
             if (myScore<=3){
-                
+
                 Toast.makeText(this, "Good", Toast.LENGTH_SHORT).show();
 
             }else if(myScore>=4 && myScore<=6)
