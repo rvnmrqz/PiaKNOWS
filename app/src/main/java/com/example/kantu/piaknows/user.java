@@ -8,6 +8,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 
 public class user extends AppCompatActivity {
@@ -58,8 +59,13 @@ public class user extends AppCompatActivity {
         kwe.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent prrog = new Intent(user.this, q1.class);
-                startActivity(prrog);
+                //Intent prrog = new Intent(user.this, q1.class);
+                //startActivity(prrog);
+
+                QuizGenerator.startQuiz(1);
+                Class classReturned = QuizGenerator.nextQuestion();
+                if(classReturned!=null) startActivity(new Intent(user.this,classReturned));
+
             }
         });
     }

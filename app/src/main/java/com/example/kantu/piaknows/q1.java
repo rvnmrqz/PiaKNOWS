@@ -34,14 +34,15 @@ public class q1 extends AppCompatActivity implements View.OnClickListener {
                 if (rdo.getText().toString().equals("Chords")) {
                     MyScore.AddScore();
                 }
-                Intent intx = new Intent(q1.this, q2.class);
-                startActivity(intx);
+
+                Class classReturned = QuizGenerator.nextQuestion();
+                if(classReturned!=null) startActivity(new Intent(getApplication(),classReturned));
+                else startActivity(new Intent(getApplication(),Main3Activity.class));
                 finish();
             }
         } catch (Exception e) {
 
         }
-
     }
 
     @Override

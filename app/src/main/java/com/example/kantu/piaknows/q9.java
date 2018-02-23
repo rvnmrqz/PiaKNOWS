@@ -34,8 +34,9 @@ public class q9 extends AppCompatActivity implements View.OnClickListener{
             if(rdo.getText().toString().equals("A Note")){
                 MyScore.AddScore();
             }
-            Intent in = new Intent(q9.this,q10.class);
-            startActivity(in);
+            Class classReturned = QuizGenerator.nextQuestion();
+            if(classReturned!=null) startActivity(new Intent(getApplication(),classReturned));
+            else startActivity(new Intent(getApplication(),Main3Activity.class));
             finish();
         }
         }catch (Exception e){

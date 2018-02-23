@@ -33,8 +33,10 @@ public class q2 extends AppCompatActivity implements View.OnClickListener {
                 if (rdo.getText().toString().equals("C Sharp and Db Minor")) {
                     MyScore.AddScore();
                 }
-                Intent in = new Intent(q2.this, q3.class);
-                startActivity(in);
+                Class classReturned = QuizGenerator.nextQuestion();
+                if(classReturned!=null) startActivity(new Intent(getApplication(),classReturned));
+                else startActivity(new Intent(getApplication(),Main3Activity.class));
+
                 finish();
             }
         }catch(Exception e){

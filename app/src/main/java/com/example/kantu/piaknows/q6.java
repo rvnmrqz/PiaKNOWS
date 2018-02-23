@@ -34,8 +34,9 @@ public class q6 extends AppCompatActivity implements View.OnClickListener{
             if(rdo.getText().toString().equals("C Family Chord")){
                 MyScore.AddScore();
             }
-            Intent in = new Intent(q6.this,q7.class);
-            startActivity(in);
+            Class classReturned = QuizGenerator.nextQuestion();
+            if(classReturned!=null) startActivity(new Intent(getApplication(),classReturned));
+            else startActivity(new Intent(getApplication(),Main3Activity.class));
             finish();
         }
         }catch (Exception e){

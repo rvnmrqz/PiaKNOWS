@@ -20,7 +20,7 @@ public class DBHelper extends SQLiteOpenHelper {
     Context con;
 
     long result;
-    private static  final  int DATABASE_VERSION=10;
+    private static  final  int DATABASE_VERSION=13;
     private static  final String DATABASE_NAME= "dbpiaknows.db";
 
     //TBL_USER
@@ -32,7 +32,9 @@ public class DBHelper extends SQLiteOpenHelper {
     public static  final String COL_AGE = "age";
     public static  final String COL_CONTACT_NO = "contactno";
     public static  final String COL_ADDRESS = "address";
-    public static  final String COL_SCORE = "score";
+    public static final String COL_SCORE1 ="score1";
+    public static final String COL_SCORE2 ="score2";
+    public static final String COL_SCORE3 ="score3";
 
 
     public DBHelper(Context context) {
@@ -48,7 +50,9 @@ public class DBHelper extends SQLiteOpenHelper {
                         COL_PASSWORD+" TEXT, "+
                         COL_FNAME + " TEXT, "+
                         COL_LNAME + " TEXT, "+
-                        COL_SCORE + " INTEGER, "+
+                        COL_SCORE1 + " INTEGER, "+
+                        COL_SCORE2 + " INTEGER, "+
+                        COL_SCORE3 + " INTEGER, "+
                         COL_AGE+" TEXT, "+
                         COL_CONTACT_NO+ " TEXT, "+
                         COL_ADDRESS+" TEXT)");
@@ -74,7 +78,9 @@ public class DBHelper extends SQLiteOpenHelper {
         contentValues.put(COL_FNAME, fname);
         contentValues.put(COL_LNAME,lname);
         contentValues.put(COL_PASSWORD,password);
-        contentValues.put(COL_SCORE,0);
+        contentValues.put(COL_SCORE1,0);
+        contentValues.put(COL_SCORE2,0);
+        contentValues.put(COL_SCORE3,0);
         contentValues.put(COL_AGE,age);
         contentValues.put(COL_CONTACT_NO,contact_no);
         contentValues.put(COL_ADDRESS, address);

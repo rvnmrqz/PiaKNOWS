@@ -38,8 +38,20 @@ public class Main3Activity extends AppCompatActivity implements View.OnClickList
 
     private void updateMyScore(int score){
         try{
+            String scoreSet="";
+            switch (QuizGenerator.glb_quizSet){
+                case 1:
+                    scoreSet = dbHelper.COL_SCORE1;
+                    break;
+                case 2:
+                    scoreSet = dbHelper.COL_SCORE2;
+                    break;
+                case 3:
+                    scoreSet = dbHelper.COL_SCORE3;
+                    break;
+            }
 
-            dbHelper.executeQuery("UPDATE "+dbHelper.TABLE_USER+ " SET "+dbHelper.COL_SCORE+" = "+score +" WHERE "+dbHelper.COL_USERNAME+" = '"+sharedPreferences.getString("username"," ")+"'");
+            dbHelper.executeQuery("UPDATE "+dbHelper.TABLE_USER+ " SET "+scoreSet+" = "+score +" WHERE "+dbHelper.COL_USERNAME+" = '"+sharedPreferences.getString("username"," ")+"'");
             Toast.makeText(this, "Score Updated", Toast.LENGTH_SHORT).show();
 
         }catch (Exception ee){
